@@ -15,3 +15,5 @@ const mix = require('laravel-mix');
  .postCss("resources/assets/front/css/app.css", "public/assets/css", [
    require("tailwindcss"),
  ]);
+
+ mix.copyDirectory("resources/assets/front/img/", "public/assets/img");
