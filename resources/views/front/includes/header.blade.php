@@ -4,10 +4,10 @@
 
 @endpush
 
-<header class="container px-44 mx-auto p-3 flex items-center gap-8">
-  <img class="mr-96" src="{{asset('assets/img/home/logo-1.png')}}" alt="logo">
+<div class="grid grid-cols-12 gap-4 container lg:px-44 md:px-10 sm:px-6 mx-auto p-3 items-center">
+  <img class="col-span-8" src="{{asset('assets/img/home/logo-1.png')}}" alt="logo">
   <nav>
-      <ul class="flex gap-6 text-white">
+      <ul class="flex gap-12 text-white">
         <li>
           <a href="#">Comunidade Ballerini</a>
         </li>
@@ -25,5 +25,5 @@
         </li>
       </ul>
   </nav>
-</header>
+</div>
 <div class="bg-white h-px w-full"></div>
